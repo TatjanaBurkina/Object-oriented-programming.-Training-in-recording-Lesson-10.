@@ -1,10 +1,10 @@
 import java.util.List;
 
-public class УчебнаяГруппа {
+public class StudentGroup {
     private final Teacher teacher;
     private final List<Student> students;
 
-    public УчебнаяГруппа(Teacher teacher, List<Student> students) {
+    public StudentGroup(Teacher teacher, List<Student> students) {
         this.teacher = teacher;
         this.students = students;
     }
@@ -19,6 +19,6 @@ public class УчебнаяГруппа {
 
     @Override
     public String toString() {
-        return "Учебная группа с преподавателем " + teacher + " и студентами: " + students;
+        return "Student group led by " + teacher + " with students: " + students;
     }
 }

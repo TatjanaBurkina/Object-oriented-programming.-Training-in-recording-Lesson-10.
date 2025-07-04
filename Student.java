@@ -1,4 +1,3 @@
-//  Класс студента с ID
 public class Student {
     private final int id;
     private final String name;
@@ -18,6 +17,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Студент: " + name + " (ID: " + id + ")";
+        return "Student: " + name + " (ID: " + id + ")";
     }
 }

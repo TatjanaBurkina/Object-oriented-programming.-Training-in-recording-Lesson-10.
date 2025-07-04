@@ -17,6 +17,6 @@ public class Teacher {
 
     @Override
     public String toString() {
-        return "Преподаватель: " + name + " (ID: " + id + ")";
+        return "Teacher: " + name + " (ID: " + id + ")";
     }
 }
